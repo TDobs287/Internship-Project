@@ -1197,7 +1197,7 @@ server <- function(input, output, session) {
   })
   
   #### DELETE PROJECT ----
-  (This is not implemented)
+  (This is not implemented via supervisor request)
    
   observeEvent(input$delete, {
    
