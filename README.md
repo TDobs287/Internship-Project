@@ -1,8 +1,9 @@
 # Internship-Project
 Data manipulation and visualization application.
 
-/*
+
 renv::activate()
+
 renv::restore()
 
 # Libraries ----
@@ -1257,5 +1258,3 @@ server <- function(input, output, session) {
 }
 
 shinyApp(ui, server)
-
-*/
