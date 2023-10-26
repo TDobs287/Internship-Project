@@ -5,19 +5,31 @@ Data manipulation and visualization application.
 renv::activate()
 renv::restore()
 
+# Libraries ----
 library(shiny)
 
 library(plotly)
+
 library(DT) #output of datatables
+
 library(tidyverse) #add_row function
+
 library(data.table) #setorder function
+
 library(reshape2) #address the warnings given regarding the melt function
+
 library(shinymanager) #password authentication
-library(yaml) #xfab database
-library(DBI) #database library
-library(RODBC)  #compute datetime for DB input
+
 library(yaml)
+
+library(DBI) #database library
+
+library(RODBC)  #compute datetime for DB input
+
+library(yaml)
+
 library(odbc)
+
 library(glue)
 
 
