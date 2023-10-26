@@ -1,7 +1,7 @@
 # Internship-Project
 Data manipulation and visualization application.
 
-
+/*
 renv::activate()
 renv::restore()
 
@@ -33,7 +33,7 @@ library(odbc)
 library(glue)
 
 
-#Password Authentication
+# Password Authentication
 credentials <- data.frame(
   user = c("#######"), # mandatory
   password = c("#######") # mandatory
@@ -1212,49 +1212,50 @@ server <- function(input, output, session) {
     
   })
   
-  ##### DELETE PROJECT ----
-  # (This is not implemented)
-  # 
-  # observeEvent(input$delete, {
-  # 
-  #   ProjID <- input$delete_Project
-  # 
-  #   formatted <- dbQuoteLiteral(con, ProjID)
-  # 
-  # 
-  #   query1 <- glue_sql("SELECT IDCol
-  #                       FROM   RecOpt_Projects
-  #                       WHERE  Title = {formatted}")
-  #   results <- dbGetQuery(con, query1)
-  #   formatted1 <- dbQuoteLiteral(con, results$IDCol)
-  #   
-  #   
-  #   
-  #   query2 <- glue_sql("SELECT IDCol
-  #                   FROM   RecOpt_TestRuns
-  #                   WHERE  ProjectID = {formatted1}")
-  #   results <- dbGetQuery(con, query2)
-  #   formatted2 <- dbQuoteLiteral(con, results$IDCol)
-  #   
-  #   
-  #   
-  #   delete1 <- glue_sql("DELETE FROM RecOpt_Positions
-  #                        WHERE TestRunID = {formatted2}")
-  #   results <- dbGetQuery(con, delete1)
-  #   
-  #   
-  #   delete2 <- glue_sql("DELETE FROM RecOpt_Data
-  #                        WHERE TestRunID = {formatted2}")
-  #   results <- dbGetQuery(con, delete2)
-  #   
-  #   
-  #   delete3 <- glue_sql("DELETE FROM RecOpt_TestRuns
-  #                        WHERE IDCol = {formatted2}")
-  #   results <- dbGetQuery(con, delete3)
-  #   
-  # })
+  #### DELETE PROJECT ----
+  (This is not implemented)
+   
+  observeEvent(input$delete, {
+   
+    ProjID <- input$delete_Project
+   
+    formatted <- dbQuoteLiteral(con, ProjID)
+   
+   
+    query1 <- glue_sql("SELECT IDCol
+                        FROM   RecOpt_Projects
+                        WHERE  Title = {formatted}")
+    results <- dbGetQuery(con, query1)
+    formatted1 <- dbQuoteLiteral(con, results$IDCol)
+     
+     
+     
+    query2 <- glue_sql("SELECT IDCol
+                    FROM   RecOpt_TestRuns
+                    WHERE  ProjectID = {formatted1}")
+    results <- dbGetQuery(con, query2)
+    formatted2 <- dbQuoteLiteral(con, results$IDCol)
+     
+     
+    
+    delete1 <- glue_sql("DELETE FROM RecOpt_Positions
+                         WHERE TestRunID = {formatted2}")
+    results <- dbGetQuery(con, delete1)
+    
+    
+    delete2 <- glue_sql("DELETE FROM RecOpt_Data
+                         WHERE TestRunID = {formatted2}")
+    results <- dbGetQuery(con, delete2)
+    
+    
+    delete3 <- glue_sql("DELETE FROM RecOpt_TestRuns
+                         WHERE IDCol = {formatted2}")
+    results <- dbGetQuery(con, delete3)
+     
+  })
   
 }
 
 shinyApp(ui, server)
 
+*/
