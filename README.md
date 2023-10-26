@@ -5,7 +5,6 @@ Data manipulation and visualization application.
 renv::activate()
 renv::restore()
 
-# Libraries
 library(shiny)
 library(plotly)
 library(DT) #output of datatables
