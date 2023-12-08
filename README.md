@@ -2,10 +2,7 @@
 
 ### Projects Table Tab
 ![Projects Table](https://github.com/TDobs287/Internship-Project/assets/113118701/7d54893c-d7b6-4529-aa97-afa37cd0e1bb)
-
-
-
-
+--------------------------------------------------------------------------------------------------------------------
 
 ### Data Entry Tab
 ![Data Entry 1](https://github.com/TDobs287/Internship-Project/assets/113118701/efa9c394-bdcf-4fc6-9104-61eee83c4190)
