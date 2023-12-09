@@ -1,7 +1,7 @@
 
 #  -- NOTICE --
 #  Majority of project's code has been removed for protection and privacy. 
-#  The following is data manipulation techniques and data visualization code only.
+#  The following is data manipulation and visualization code only.
 
 
 
