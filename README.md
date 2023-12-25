@@ -16,7 +16,7 @@
 
 
 ### Load Project Tab
-##### This tab loads from the database any previously saved project or test runs.
+##### This tab loads from the database any previously saved project or test runs. You may put in a project or test run ID to load that specific information. The ProjectID can be found in the main tab by searching for the Title of a project. upon loading a project, the list of affiliated test runs and their IDs are given.
 ![Load Project](https://github.com/TDobs287/Internship-Project/assets/113118701/c4c64d62-492a-4d4b-bbcf-96c5f57ac8e9)
 
 
